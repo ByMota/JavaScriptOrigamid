@@ -71,3 +71,6 @@ var cachorro = {
     }
   }
 }
+
+var carro = 'Corsa';
+carro.replace('sa', 'vo');
