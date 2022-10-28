@@ -28,6 +28,39 @@ videoGames.length; // 3
 //   }
 // }
 
-videoGames.forEach(function(item, i, array){
-  console.log(item, i, array)
-});
+// videoGames.forEach(function(item, i, array){
+//   console.log(item, i, array)
+//   videoGames.pop();
+//   console.log(item, i, array)
+// });
+
+// Crie uma array com os anos que o Brasil ganhou a copa
+// 1959, 1962, 1970, 1994, 2002
+var copa = [1959, 1962, 1970, 1994, 2002]
+
+// Interaja com a array utilizando um loop, para mostrar
+// no console a seguinte mensagem, `O brasil ganhou a copa de ${ano}`
+for(var ano = 0; ano < copa.length; ano++){
+  console.log(`O Brasil ganhou a copa em ${copa[ano]}`)
+}
+
+// Interaja com um loop nas frutas abaixo e pare ao chegar em Pera
+var frutas = ['Banana', 'Maçã', 'Pera', 'Uva', 'Melância']
+for(var fruta = 0; fruta < frutas.length; fruta++){
+  console.log(frutas[fruta])
+  if(frutas[fruta] === 'Pera'){
+    break
+  }
+}
+
+// Coloque a última fruta da array acima em uma variável,
+// sem remover a mesma da array.
+var ultimaFruta2 = frutas[frutas.length -1];
+console.log(`A ultima fruta é ${ultimaFruta2}`);
+
+for(fruta = 0; fruta < frutas.length; fruta++){
+  if(frutas[fruta] === 'Melância'){
+    var ultimaFruta = frutas[fruta];
+    console.log(`A ultima fruta é ${ultimaFruta}`);
+  }
+}
