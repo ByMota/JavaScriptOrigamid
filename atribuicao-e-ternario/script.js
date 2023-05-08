@@ -1,11 +1,11 @@
-var idade = 19;
+var idade = 18;
 temDiabetes = false;
 // Operador ternário
 // Não faz sentido retornar true ou false pois a propria operação ja retorna esse valores
-var podeBeber = (idade >= 18 && temDiabetes) ? 'Pode Beber' : 'Não Pode Beber'
+var podeBeber = (idade >= 18 && !temDiabetes) ? 'Pode Beber' : 'Não Pode Beber'
 console.log(podeBeber)
 
-//If abreviado
+//If abreviado sem abrir chaves {}
 var possuiFaculdade = true;
 if(possuiFaculdade) console.log('Possui faculdade');
 else console.log('Não possui faculdade');
@@ -20,7 +20,7 @@ else
 // atribuindo o novo valor a scroll
 var scroll = 1000;
 scroll += 500;
-
+console.log(scroll)
 // Atribua true para a variável darCredito,
 // caso o cliente possua carro e casa.
 // E false caso o contrário.
@@ -34,4 +34,4 @@ var darCredito;
 
 //
 darCredito = (possuiCarro && possuiCasa);
-
+console.log(darCredito)
