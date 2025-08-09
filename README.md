@@ -3,9 +3,9 @@
 Repositório para o curso de JavaScript da Origamid
 
 ## Stack utilizada
-
-**Front-end:** React
-**Back-end:** Node
+- Html
+- Css
+- JavaScript
 
 ## Aprendizados
 
